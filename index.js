@@ -6,7 +6,7 @@ const {Todo} = require('./models');
 const stor = {
     todo: [],
 };
-
+//
 [1, 2, 3].map(el => {
     const newTodo = new Todo(`todo ${el}`, `desc todo ${el}`);
     stor.todo.push(newTodo);
